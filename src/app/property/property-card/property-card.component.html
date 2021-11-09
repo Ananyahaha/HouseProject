@@ -1,0 +1,10 @@
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top" [src]="Property.ImageSrc" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">
+          <h3>{{Property.Name}}</h3>
+          <h5>{{Property.Type}}</h5>
+          <H5>{{Property.Price|currency:"INR":"symbol"}}</H5>
+      
+    </div>
+  </div>
